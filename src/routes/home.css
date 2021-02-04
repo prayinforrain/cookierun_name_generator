@@ -61,6 +61,10 @@
 #genBtn span:after {
     content:"랜덤 이름";
     font-size: 1.4em;
+    text-shadow: -1px -1px 2px #5aeef4,
+    1px -1px 2px #5aeef4,
+    -1px 1px 2px #5aeef4,
+    1px 1px 2px #5aeef4;
 }
 
 #btnZone {
