@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cookierun_name_generator/static/css/main.3e1ac37d.chunk.css",
+    "main.css": "/cookierun_name_generator/static/css/main.37026891.chunk.css",
     "main.js": "/cookierun_name_generator/static/js/main.4ba74353.chunk.js",
     "main.js.map": "/cookierun_name_generator/static/js/main.4ba74353.chunk.js.map",
     "runtime-main.js": "/cookierun_name_generator/static/js/runtime-main.4bc9df4a.js",
@@ -8,14 +8,14 @@
     "static/js/2.f08df258.chunk.js": "/cookierun_name_generator/static/js/2.f08df258.chunk.js",
     "static/js/2.f08df258.chunk.js.map": "/cookierun_name_generator/static/js/2.f08df258.chunk.js.map",
     "index.html": "/cookierun_name_generator/index.html",
-    "static/css/main.3e1ac37d.chunk.css.map": "/cookierun_name_generator/static/css/main.3e1ac37d.chunk.css.map",
+    "static/css/main.37026891.chunk.css.map": "/cookierun_name_generator/static/css/main.37026891.chunk.css.map",
     "static/js/2.f08df258.chunk.js.LICENSE.txt": "/cookierun_name_generator/static/js/2.f08df258.chunk.js.LICENSE.txt",
     "static/media/home.css": "/cookierun_name_generator/static/media/cookieFont.52560075.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.4bc9df4a.js",
     "static/js/2.f08df258.chunk.js",
-    "static/css/main.3e1ac37d.chunk.css",
+    "static/css/main.37026891.chunk.css",
     "static/js/main.4ba74353.chunk.js"
   ]
 }
