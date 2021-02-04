@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'CookieFont'; src: url(../data/cookieFont.ttf) format('truetype');
+}
+
+* {
+    font-family: 'CookieFont';
+    font-weight: 600;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+#nameContainer {
+    background-image: url(../data/Nick_bg.PNG);
+    background-repeat: no-repeat;
+    width: 582px;
+    height: 559px;
+    margin: auto;
+}
+
+#propTitle {
+    margin: auto;
+    padding-top: 150px;
+    width: fit-content;
+    height: fit-content;
+    font-size: xx-large;
+    color: #321b0a;
+    text-shadow: 1px 1px 5px #FFFFFF;
+}
+
+#nameZone {
+    display: table;
+    vertical-align: middle;
+    width: fit-content;
+    height: 47px;
+    margin: auto;
+    margin-top:10px;
+}
+
+#genBtn {
+    display: table-cell;
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url(../data/RandomBtn.png);
+    background-repeat: no-repeat;
+    justify-content: center;
+    width:101px;
+    height: 47px;
+    margin: auto;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: large;
+    color: #112f38;
+    font-weight: 600;
+    margin-right: -20px;
+}
+
+#genBtn:active {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../data/RandomBtn.png);
+}
+
+#genBtn span:after {
+    content:"랜덤 이름";
+    font-size: large;
+}
+
+#btnZone {
+    display: table-cell;
+    width: fit-content;
+    height: 38px;
+}
+
+#CookieName {
+    width: 200px;
+    height: 47px;
+    font-size: large;
+    background-color: #FFFBEB;
+    border: #edd9b4 2px solid;
+    box-shadow: inset 0em 0em 0px 2px #f7ecd3;
+    border-radius: 10px;
+    color: #edd9b4;
+    text-align: center;
+    font-weight: 500;
+    vertical-align: middle;
+    display: table-cell;
+    padding-left: 10px;
+}
+
+#propDetail {
+    margin-top: 10px;
+    text-align: center;
+    height: fit-content;
+}
+
+#OKzone {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+#btnOK {
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url('../data/btnConfirm.png') no-repeat;
+    background-size: cover;
+    width: 192px;
+    height: 72px;
+    border: none;
+    outline: none;
+    display: block;
+    margin-top: 40px;
+}
+
+#btnOK span:after {
+    content: "확인";
+    font-size: xx-large;
+    color: white;
+    text-shadow: -2px -2px 2px #321b0a,
+    2px -2px 2px #321b0a,
+    -2px 2px 2px #321b0a,
+    2px 2px 2px #321b0a;
+}
+
+#btnOK:active {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../data/btnConfirm.png') no-repeat;
+    background-size: cover;
+    width: 192px;
+    height: 72px;
+    border: none;
+    outline: none;
+}
+
+#hand {
+    background: url('../data/Hand.png') no-repeat;
+    width: 292px;
+    height: 184px;
+    margin-left: 70%;
+    animation: handAnime 1s infinite alternate;
+}
+
+@keyframes handAnime {
+    0%{
+        transform: rotate( -5deg );
+        margin-top: 6px;
+        margin-left: 67%;
+    }
+    100%{
+        transform: rotate( 10deg );
+        margin-top: -6px;
+        margin-left: 70%;
+    }
+}
