@@ -42,26 +42,25 @@
     background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url(../data/RandomBtn.png);
     background-repeat: no-repeat;
     justify-content: center;
-    width:111px;
+    width:101px;
     height: 47px;
     margin: auto;
     text-align: center;
     border: none;
     outline: none;
-    font-size: large;
     color: #112f38;
     font-weight: 600;
     margin-right: -20px;
-    padding-right: 15px;
+    padding-right: 11%;
 }
 
 #genBtn:active {
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../data/RandomBtn.png);
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../data/RandomBtn.png) no-repeat;
 }
 
 #genBtn span:after {
     content:"랜덤 이름";
-    font-size: large;
+    font-size: 1.2em;
 }
 
 #btnZone {
