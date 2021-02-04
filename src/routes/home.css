@@ -42,7 +42,7 @@
     background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url(../data/RandomBtn.png);
     background-repeat: no-repeat;
     justify-content: center;
-    width:101px;
+    width:111px;
     height: 47px;
     margin: auto;
     text-align: center;
@@ -52,6 +52,7 @@
     color: #112f38;
     font-weight: 600;
     margin-right: -20px;
+    padding-right: 15px;
 }
 
 #genBtn:active {
@@ -60,7 +61,7 @@
 
 #genBtn span:after {
     content:"랜덤 이름";
-    font-size: 0.9em;
+    font-size: large;
 }
 
 #btnZone {
