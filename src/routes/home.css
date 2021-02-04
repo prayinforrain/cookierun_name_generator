@@ -60,7 +60,7 @@
 
 #genBtn span:after {
     content:"랜덤 이름";
-    font-size: large;
+    font-size: 0.9em;
 }
 
 #btnZone {
