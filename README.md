@@ -1,4 +1,5 @@
 # Cookierun Username Generator
+https://prayinforrain.github.io/cookierun_name_generator/
 
 ![image](https://user-images.githubusercontent.com/46566891/106925229-3b505900-6753-11eb-9fab-9804834863fd.png)
 
